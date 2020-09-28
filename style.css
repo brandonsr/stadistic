@@ -10,7 +10,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     align-items: center;
-    width: 100%;
+    width: 120%;
     max-width: 1000px;
 }
 .title
@@ -27,6 +27,7 @@
     float: right;
     text-decoration: none;
     transition: cubic-bezier(1, 0, 0, 1);
+    transition-duration: 2s;
 }
 .pie
 {
@@ -34,10 +35,13 @@
 }
 .twit a:hover
 {
-    display: inline-flexbox;
-    transition: cubic-bezier(1, 0, 0, 1);
+    
+    transition: cubic-bezier(5, 0, 0, 5);
+    transition-duration: 2s;
 }
 .git a:hover
 {
-    transition: cubic-bezier(1, 0, 0, 1);
+    display: inline-block;
+    transition: cubic-bezier(10, 0, 0, 10);
+    transition-duration: 2s;
 }

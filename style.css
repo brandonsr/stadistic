@@ -16,32 +16,44 @@
 .title
 {
     font-weight: 800;
+    
 }
 .footer
 {
     font-weight: bold;
 }
-.redes a:hover
-{
-    list-style: none;
-    float: right;
-    text-decoration: none;
-    transition: cubic-bezier(1, 0, 0, 1);
-    transition-duration: 2s;
-}
+
 .pie
 {
     display: inline-flex;
 }
-.twit a:hover
+.sociales
 {
-    
-    transition: cubic-bezier(5, 0, 0, 5);
-    transition-duration: 2s;
-}
-.git a:hover
-{
+    list-style: none;
+    text-decoration: none;
     display: inline-block;
-    transition: cubic-bezier(10, 0, 0, 10);
-    transition-duration: 2s;
+    padding: 6px 0px;
+}
+.redes .sociales li 
+{
+    float: right;
+}
+.redes .sociales{
+    float: right;
+}
+.redes .sociales ul 
+{
+    list-style: none;
+}
+.redes .sociales ul li a
+{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 15px;
+    font-style: italic;
+}
+.redes .sociales ul li a:hover
+{
+    color: brown;
 }

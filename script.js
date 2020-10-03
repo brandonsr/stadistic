@@ -2,10 +2,10 @@ var ctx = document.getElementById('mychart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ['March', 'April', 'May', 'June', 'July', 'August', 'September'],
+        labels: ['March', 'April', 'May', 'June', 'July', 'August', 'September' , "October"],
         datasets: [{
             label: '# of Cases Confirmed',
-            data: [39, 599, 5087, 19011, 50979, 74893, 88878, ],
+            data: [39, 599, 5087, 19011, 50979, 74893, 92409, 93090 ],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
